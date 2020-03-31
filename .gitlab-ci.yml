@@ -1,3 +1,10 @@
+
+build:
+  script:
+    - echo "build App"
 test:
   script:
-    - echo "Hallo Welt!"
+    - echo "test App!"
+deploy:
+  script:
+    - echo "deploy App!"
