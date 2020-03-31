@@ -33,7 +33,8 @@ test_dynamic:
 store_artefact:
   stage: store
   artifacts:
-    - ./foo.txt
+    paths:
+      - ./foo.txt
 
 deploy:
   stage: deploy
