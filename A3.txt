@@ -1,1 +1,132 @@
-hallo aufgabe 3!
+    1  ls -la
+    2  git clone https://github.com/Madomur/2020-Webinar.git
+    3  cd ..
+    4  ls -la
+    5  cd WXIANG/
+    6  ls -la
+    7  cd 2020-Webinar/
+    8  ls -la
+    9  touch yerste.txt
+   10  git status
+   11  git add yerste.txt 
+   12  git status
+   13  vim yerste.txt 
+   14  git status
+   15  git commit yerste.txt -m"erste datei"
+   16  git push -u yerste.txt
+   17  man git push
+   18  man push
+   19  git push --help
+   20  vi git.conf
+   21  view git.conf
+   22  view .git/config
+   23  git pull
+   24  git push 
+   25  ssh-keygen
+   26  cat /c/Users/WXIANG/.ssh/id_rsa.pub
+   27  ssh -T git@github.com
+   28  git ./config
+   29  vi .git/config
+   30  git push 
+   31  git pull
+   32  git push 
+   33  git status
+   34  ls -la
+   35  cat foo.txt
+   36  vi foo.txt
+   37  view foo.txt
+   38  add foo.txt
+   39  git status 
+   40  git add foo.txt
+   41  git push
+   42  git pull
+   43  git push
+   44  cat foot.txt
+   45  cat foo.txt
+   46  git push
+   47  git pull
+   48  git push
+   49  git commit foo.txt -m "hi,mittag"
+   50  git push
+   51  git pull
+   52  git mergetool
+   53  ls -la
+   54  vi foo.txt
+   55  rm foo.txt.orig
+   56  git commit .
+   57  ls -la
+   58  git status
+   59  git add .
+   60  git status
+   61  git commit .
+   62  git merage --coninue
+   63  git merage --continue
+   64  git merge --continue
+   65  git status
+   66  git push
+   67  ls -la .ssh
+   68  ls -la .ssh/
+   69  ls -la 
+   70  git checkout -b ying
+   71  git add ying
+   72  git status
+   73  git commit ying
+   74  git push -u origin ying
+   75  git status
+   76  ls -la
+   77  git branch
+   78  git pull
+   79  git branch -a
+   80  git fetch
+   81  ls -la
+   82  git branch -a
+   83  git checkout -b aufgabe3
+   84  touch A3.txt
+   85  vi A3.txt
+   86  git add A3.txt
+   87  git commit A3.txt -m "aufgabe erledigt"
+   88  git pull
+   89  git push -u origin aufgabe3
+   90  ls -la
+   91  vi A3.txt
+   92  git commit A3.txt
+   93  git push
+   94  ls -la
+   95  cd .git/hooks
+   96  ls -la
+   97  git add A3.txt
+   98  cd /2020-webinar/
+   99  cd /2020-webinar/.
+  100  cd ..
+  101  cd ..
+  102  git add A3.txt
+  103  git status
+  104  git commit A3.txt
+  105  git init.
+  106  git init
+  107  ls -la
+  108  cat .git
+  109  cd /.git
+  110  cd /.git/.git
+  111  cd /.git
+  112  /.git
+  113  cd C:/Users/WXIANG/2020-Webinar/.git/
+  114  ls -la
+  115  cat C:/Users/WXIANG/2020-Webinar/.git/
+  116  cat /config
+  117  cat config
+  118  .git
+  119  git ower
+  120  pwd
+  121  git log ying
+  122  git gui
+  123  git citool
+  124  git gui citool
+  125  gitk
+  126  history
+  127  history > aufgabe3
+  128  git status
+  129  cd ..
+  130  cat aufgabe3
+  131  ls -la
+  132  history > A3.txt
