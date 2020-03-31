@@ -18,6 +18,7 @@ test_dynamic:
   stage: test
   script:
     - echo "dynamic test App!"
+    - echo 1
 
 deploy:
   stage: deploy
