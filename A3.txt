@@ -1,4 +1,3 @@
-
     1  ls -la
     2  git clone https://github.com/Madomur/2020-Webinar.git
     3  cd ..
@@ -136,4 +135,8 @@ hallo aufgabe 3!
 
 tolle Änderung
 
-andere Änderun
+andere Änderung
+
+hallo aufgabe 3!
+
+tolle Änderung
