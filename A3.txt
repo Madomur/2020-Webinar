@@ -1,3 +1,4 @@
+
     1  ls -la
     2  git clone https://github.com/Madomur/2020-Webinar.git
     3  cd ..
@@ -130,3 +131,9 @@
   130  cat aufgabe3
   131  ls -la
   132  history > A3.txt
+
+hallo aufgabe 3!
+
+tolle Änderung
+
+andere Änderun
