@@ -8,19 +8,28 @@ build:
   stage: build
   script:
     - echo "build App"
-
+  only:
+    - /^feature/.*$/i
+    - develop
 test_static:
   stage: test
   script:
     - echo "static test App!"
+  only:
+    - /^feature/.*$/i
+    - develop
 
 test_dynamic:
   stage: test
   script:
     - echo "dynamic test App!"
-    - fsdf
+  only:
+    - /^feature/.*$/i
 
+    - develop
 deploy:
   stage: deploy
   script:
     - echo "deploy App!"
+  only:
+    - develop
