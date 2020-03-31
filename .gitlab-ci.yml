@@ -1,7 +1,9 @@
 ---
+
 stages:
   - build
   - test
+  - store
   - deploy
 
 build:
@@ -11,6 +13,7 @@ build:
   only:
     - /^feature/.*$/i
     - develop
+
 test_static:
   stage: test
   script:
@@ -25,8 +28,13 @@ test_dynamic:
     - echo "dynamic test App!"
   only:
     - /^feature/.*$/i
-
     - develop
+
+store_artefact:
+  stage: store
+  artifacts:
+    - ./foo.txt
+
 deploy:
   stage: deploy
   script:
