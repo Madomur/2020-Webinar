@@ -13,6 +13,9 @@ build:
   only:
     - /^feature/.*$/i
     - develop
+  artifacts:
+    paths:
+      - ./foo.txt
 
 test_static:
   stage: test
@@ -29,12 +32,6 @@ test_dynamic:
   only:
     - /^feature/.*$/i
     - develop
-
-store_artefact:
-  stage: store
-  artifacts:
-    paths:
-      - ./foo.txt
 
 deploy:
   stage: deploy
