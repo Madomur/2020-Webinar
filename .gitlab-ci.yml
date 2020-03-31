@@ -5,11 +5,21 @@ stages:
   - deploy
 
 build:
+  stage: build
   script:
     - echo "build App"
-test:
+
+test_static:
+  stage: test
   script:
-    - echo "test App!"
+    - echo "static test App!"
+
+test_dynamic:
+  stage: test
+  script:
+    - echo "dynamic test App!"
+
 deploy:
+  stage: deploy
   script:
     - echo "deploy App!"
